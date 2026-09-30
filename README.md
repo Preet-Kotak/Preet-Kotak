@@ -1,4 +1,7 @@
 <h1 align="center">Hi 👋, I'm Preet Kotak</h1>
+<p align="center">
+  <a href="https://preet-kotak.vercel.app">preet-kotak.vercel.app</a>
+</p>
 
 ```
 BEGIN PROFILE "Preet Kotak"
@@ -9,7 +12,8 @@ BEGIN PROFILE "Preet Kotak"
         languages : [Python, C, C++, JavaScript, Assembly(8086)],
         backend   : [Node.js, Express, discord.py],
         frontend  : [React, Tailwind CSS, HTML, CSS],
-        data      : [MongoDB, PostgreSQL, Redis]
+        ml_cv     : [YOLO, PyTorch, OpenCV, NumPy, SciPy],
+        data      : [MongoDB, PostgreSQL, Redis, Supabase]
     }
 
     DEFINE side_quests = [
@@ -42,6 +46,14 @@ BEGIN PROFILE "Preet Kotak"
                 why   : "microprocessor coursework wasn't painful enough on its own"
             },
 
+            "BaseFinder": {
+                what  : "object detection & layout matching pipeline",
+                stack : "YOLO11m, PyTorch, OpenCV, SciPy, Hungarian algorithm",
+                extra : "trained YOLO11m on 468 labeled images (23 defence classes), " +
+                        "0.936 mAP50 on test set, matches detected layouts against 750+ database entries, " +
+                        "confidence auto-calibration, visual comparison tools"
+            },
+
             "KissanLink": {
                 what   : "WhatsApp farm marketplace for rural Gujarat",
                 why    : "target users are on 2G, nobody's installing an app",
@@ -57,7 +69,9 @@ BEGIN PROFILE "Preet Kotak"
 
             "PortfolioSite": {
                 what   : "personal developer portfolio, Clash of Clans-style isometric village theme",
-                status : "in progress"
+                stack  : "React 19, Phaser 4, Vite, Tailwind CSS, EmailJS",
+                extra  : "isometric village game with modal info panels, live Codeforces/LeetCode/GitHub stats, " +
+                        "guided tutorial overlay, Q&A chat panel, dark/light theme toggle"
             }
         }
     END FUNCTION
@@ -72,6 +86,7 @@ BEGIN PROFILE "Preet Kotak"
     FUNCTION contact():
         RETURN {
             github     : "github.com/Preet-Kotak",
+            portfolio  : "preet-kotak.vercel.app",
             linkedin   : "linkedin.com/in/preet-kotak-8538b033a",
             codeforces : "codeforces.com/profile/Preet-Kotak",
             resume     : "https://docs.google.com/document/d/15jJ-j8FJX7ntpnp21Lv3mD8RdQsfIsSg/edit?usp=drive_link",
@@ -132,6 +147,7 @@ END PROFILE
 <div align="center">
   
 [![GitHub](https://img.shields.io/badge/GitHub-Preet--Kotak-181717?style=for-the-badge&logo=github)](https://github.com/Preet-Kotak)
+[![Portfolio](https://img.shields.io/badge/Portfolio-preet--kotak.vercel.app-4a5568?style=for-the-badge&logo=vercel)](https://preet-kotak.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Preet%20Kotak-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/preet-kotak-8538b033a)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Preet--Kotak-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Preet-Kotak)
 [![Resume](https://img.shields.io/badge/Resume-View%20Here-success?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/15jJ-j8FJX7ntpnp21Lv3mD8RdQsfIsSg/edit?usp=drive_link)
